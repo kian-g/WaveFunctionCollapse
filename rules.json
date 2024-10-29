@@ -1,0 +1,79 @@
+{
+  "tiles": [
+    {
+      "name": "mountain",
+      "can_touch": [
+        "mountain",
+        "tree",
+        "grass",
+        "lava"
+      ],
+      "ideal_percent": 17.2
+    },
+    {
+      "name": "tree",
+      "can_touch": [
+        "tree",
+        "grass",
+        "mountain",
+        "water"
+      ],
+      "ideal_percent": 17.2
+    },
+    {
+      "name": "sand",
+      "can_touch": [
+        "sand",
+        "water",
+        "grass"
+      ],
+      "ideal_percent": 17.2
+    },
+    {
+      "name": "water",
+      "can_touch": [
+        "water",
+        "sand",
+        "grass",
+        "tree",
+        "dwater"
+      ],
+      "ideal_percent": 17.2
+    },
+    {
+      "name": "grass",
+      "can_touch": [
+        "grass",
+        "mountain",
+        "tree",
+        "sand",
+        "water"
+      ],
+      "ideal_percent": 17.2
+    },
+    {
+      "name": "lava",
+      "can_touch": [
+        "lava",
+        "mountain"
+      ],
+      "ideal_percent": 6
+    },
+    {
+      "name": "dwater",
+      "can_touch": [
+        "dwater",
+        "water",
+        "planks"
+      ],
+      "ideal_percent": 6
+    },
+    {
+      "name": "planks",
+      "can_touch": [
+        "dwater"
+      ],
+      "ideal_percent": 2
+    }
+  ]
+}

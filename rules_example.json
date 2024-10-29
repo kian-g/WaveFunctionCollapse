@@ -1,0 +1,21 @@
+{
+  "tiles": [
+    {
+      "name": "A",
+      "can_touch": ["A", "B", "E"],
+      "ideal_percent": 50
+    },
+    {
+      "name": "B",
+      "can_touch": ["A", "B"]
+    },
+    {
+      "name": "E",
+      "can_touch": ["A", "E"]
+    },
+    {
+      "name": "C",
+      "can_touch": ["A", "C"]
+    }
+  ]
+}
